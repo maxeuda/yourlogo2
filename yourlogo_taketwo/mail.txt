@@ -1,0 +1,22 @@
+Liebe Lisa,
+ 
+Vielen Dank für das Beispiel - ich kann nicht leugnen, dass ich sehr gefordert war! Es hat mir jedoch Spaß gemacht, Neues lernen zu können.
+ 
+Da meine Frist abgelaufen ist, schicke ich Dir im Anhang meinen bisherigen Fortschritt. Ich habe David bereits am Sonntag eine Mail mit Link zu meinem ersten Versuch auf Github geschickt - sollte die Mail nicht angekommen sein, bitte ich darum, im Spam-Ordner nachzusehen.
+ 
+Eine kurze Erklärung:
+ 
+--> zunächst habe ich mich mit Docker vertraut gemacht (ich habe Docker noch nie verwendet), und bin leider auf zahlreiche Hindernisse gestoßen. Das hat mich über das Wochenende beschäftigt, leider konnte ich aufgrund der Probleme keine großen Fortschritte machen. Gerne schicke ich Euch jedoch auch diese Dateien per eMail, wenn erwünscht.
+ 
+--> am Montag habe ich beschlossen, nach der Arbeit das komplette Projekt neu zu machen - im Anhang könnt Ihr sehen, wie weit ich gekommen bin.
+
+--> ich konnte die eMail heute beim ersten Versuch nicht senden, daher ist der .git - Ordner nicht vorhanden (mail daemon sagt "potential security issue"). Commit-history ist in der Master-Dateil.
+ 
+Ich weiß, dass Ihr mehr erwartet habt; dennoch würde es mich sehr freuen, wenn Ihr mich bei Gelegenheit nochmal kontaktieren könntet, jedes Feedback ist meinem Lernprozess sehr dienlich.
+
+
+ 
+Alles Gute und Liebe grüße,
+ 
+Max.
+  

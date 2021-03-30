@@ -1,0 +1,204 @@
+/* general styles */
+
+html {
+    font-family: 'Lexend Giga', sans-serif;
+}
+
+body {
+    margin: 0; /* preventing wrong margin in firefox? can't check if any other browsers are affected at this moment */
+    display: flex;
+    flex-direction: column;
+}
+
+.aPic {
+    display: none;
+    height: 60px;
+}
+
+/* header styles */
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 3 !important; /* prevent header from falling behind slider */
+}
+
+.headerBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6px 10%;
+    align-items: center;
+}
+
+#headerNavBar {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+#blueHeaderBar {
+    background-color: #017dc5; /* ripped from image */
+    color: #ffffff;
+}
+
+#whiteHeaderBar {
+    background-color: #ffffff;
+    height: 4rem;
+}
+
+#whiteHeaderBar a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 24px 4px 12px 4px;
+    margin-top: -24px;
+    border-radius: 5px;
+}
+
+#whiteHeaderBar a:hover {
+    background-color: #017dc5;
+    color: #ffffff;
+}
+
+/* main styles */
+
+#mainBackgroundImage {
+    background-image: url("./assets/background.jpg");
+    height: 648px; /* full height of img */
+    background-repeat: no-repeat; /* precaution */
+    max-width: 100%;
+}
+
+nav {
+    width: 80%;
+    background-color: #017dc5;
+    margin-left: 10%; /* kinda sketchy, but hey, it works! */
+    text-align: center;
+    color: #ffffff;
+    height: 12rem;
+    font-size: 2.6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -6rem;
+    position: relative; /* to make slider overlay #services */
+}
+
+nav p {
+    padding: 0 2rem;
+}
+
+#services {
+    width: 90%;
+    background-color: #eceaea;
+    margin-left: 5%; /* kinda sketchy, but hey, it works! */
+    height: 60rem; /* testing */
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: -6rem;
+}
+
+/* footer styles */
+
+footer {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+#footerNavBar {
+    width: 60%;
+    margin-left: 20%;
+    justify-content: space-between;
+}
+
+#footerNavBar a {
+    text-decoration: none;
+    color: #000000;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+
+#footerCopyright {
+    font-size: 0.75rem;
+}
+
+/* responsive design */
+
+@media only screen and (max-width: 1600px) {
+    header {
+        flex-direction: column;
+    }
+
+    .headerBar {
+        padding: 6px 12px;
+    }
+
+    #headerNavBar {
+        width: 70%;
+    }
+
+    #footerNavBar {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .headerBar {
+        flex-direction: column;
+    }
+
+    #whiteHeaderBar {
+        height: 14rem;
+        margin: 0;
+    }
+
+    #headerNavBar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #whiteHeaderBar a {
+        padding: 6px 8px;
+        margin-top: 0;
+        border-radius: 8px;
+    }
+
+    #navbarDescription {
+        display: none;
+    }
+
+    #footerNavBar {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 824px) {
+    nav {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #services {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #footerNavBar a {
+        display: none;
+    }
+
+    .aPic {
+        display: initial;
+        padding: 0 5%;
+    }
+}

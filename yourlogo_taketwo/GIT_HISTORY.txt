@@ -1,0 +1,58 @@
+29.03.2021 - 13:32 GMT+1
+
+> created necessary html/css files, readme and git documentation;
+> base html structure
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+29.03.2021 - 14:55 GMT+1
+
+> finished header plain/basic version
+> added space for main background !this is it's own nav with id
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+29.03.2021 - 15:36 GMT+1
+
+> remade header css
+> background added
+> swapped header white bar text
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+29.03.2021 - 17:44 GMT+1
+
+> slider base and select menu base added
+> trouble with z-index, i suppose b/c html is reading menu after slider;
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+29.03.2021 - 18:19 GMT+1
+
+> footer base added
+> trouble with z-index, i suppose b/c html is reading menu after slider; still an issue
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+29.03.2021 - 18:35 GMT+1
+
+> fixed blue nav bar
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+29.03.2021 - 20:27 GMT+1
+
+> fixed z-index issues between header and blue nav bar
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+29.03.2021 - 21:18 GMT+1
+
+> responsive design done (for the moment; improvements to follow)
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+29.03.2021 - 21:49 GMT+1
+
+> minor changes to both index and style
+> added and tested js file
